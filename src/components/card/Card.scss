@@ -1,0 +1,13 @@
+.card{
+  white-space: pre-line;
+  
+  & > * {
+    padding: 10px;
+  }
+
+  img{
+    min-height:150px;
+    min-width:150px;
+    background: url(../../assets/Loading_icon.gif) no-repeat center;
+  }
+}
